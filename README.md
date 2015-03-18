@@ -26,6 +26,8 @@
 
 `cleanupds`: Recursively delete .DS_Store files
 
+`ducks`: List the 10 largest sub-directories
+
 `extract X`: Extract archive X.
 
 `killport X`: Kill process running on port X

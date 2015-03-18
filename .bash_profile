@@ -29,6 +29,8 @@ alias ports='sudo lsof -i | grep LISTEN'
 
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 
+alias ducks='du -cks * | sort -rn | head'
+
 extract() {
     if [ -f $1 ] ; then
         case $1 in
