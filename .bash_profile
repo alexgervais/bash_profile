@@ -67,3 +67,10 @@ ii() {
     echo -e "\n${RED}DNS Configuration:$NC " ; scutil --dns
     echo
 }
+
+updateprofile() {
+    cd ~
+    rm -f .bash_profile
+    wget https://raw.github.com/alexgervais/bash_profile/master/.bash_profile
+    source .bash_profile
+}

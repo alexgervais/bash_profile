@@ -33,3 +33,5 @@
 `killport X`: Kill process running on port X
 
 `ii`:  Display useful host related information
+
+`updateprofile`: Auto-update the .bash_profile to the latest version
